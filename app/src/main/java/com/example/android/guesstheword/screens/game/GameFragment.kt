@@ -66,7 +66,7 @@ class GameFragment : Fragment() {
     private fun updateWordText() {
         binding.wordText.text = viewModel.word
     }
-
+//jj
     private fun updateScoreText() {
         binding.scoreText.text = viewModel.score.toString()
     }
